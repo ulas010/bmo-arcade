@@ -31,7 +31,8 @@ BMO's buttons work too: the yellow D-pad browses, red inserts, green ejects, the
 
 ## Tech
 
-- React 18 and Vite 7, plain JavaScript
+- HTML, CSS and plain JavaScript
+- React 18 for the components and state, Vite 7 for the dev server and the build
 - BMO and the cartridges are drawn in code as SVG; their coordinates come from a 500x500 reference sticker
 - Camera zoom with a CSS transform computed from BMO's measured screen position
 - Cartridge hand-off between a DOM clone and BMO's own SVG drawing with the Web Animations API and `flushSync`
